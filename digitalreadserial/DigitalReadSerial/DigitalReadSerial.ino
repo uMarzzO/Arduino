@@ -12,8 +12,8 @@ void setup() {
 
 void loop() {
   
-  int botaoLocal = digitalRead(botaodeApertar);
+  int botaoEstado = digitalRead(botaodeApertar);
   
-  Serial.println(botaoLocal);
+  Serial.println(botaoEstado);
   delay(1);
 }
