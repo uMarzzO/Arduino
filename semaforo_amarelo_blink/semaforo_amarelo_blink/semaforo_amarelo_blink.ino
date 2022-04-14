@@ -1,3 +1,5 @@
+// Semáforo com LED Amarelo Piscando 
+
 // Declarando nome e posição dos LED's:
 int vermelho = 13;
 int amarelo = 9;
