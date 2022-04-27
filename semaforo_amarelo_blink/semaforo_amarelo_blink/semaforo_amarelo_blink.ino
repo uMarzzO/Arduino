@@ -17,15 +17,14 @@ void setup() {
 void loop() {
 
   digitalWrite(vermelho, LOW); // Apaga LED vermelho
+  digitalWrite(verde, LOW); // Apaga LED verde
   
-    for(int a = 0; a <= 5; a++){
+  for(int a = 0; a <= 5; a++){
     digitalWrite(amarelo, HIGH);
     delay(500);
     digitalWrite(amarelo, LOW);
     delay(500);
   } // Faz LED amarelo piscar por um período determinado
-  
-   digitalWrite(verde, LOW); // Apaga LED verde
   
 
   digitalWrite(amarelo, LOW); // Apaga LED amarelo
